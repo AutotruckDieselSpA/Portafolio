@@ -4,10 +4,8 @@ import Navigation from "../components/global/Navigation.astro";
 
 import Hero from "../components/landing/Hero.astro";
 import SectionOne from "../components/landing/SectionOne.astro";
-import SectionTwo from "../components/landing/SectionTwo.astro";
 import Testimonial from "../components/global/Testimonial.astro";
-import Pricing from "../components/landing/Pricing.astro";
-import Cta from "../components/global/Cta.astro";
+
 import Footer from "../components/global/Footer.astro";
 import { AstroSeo } from "@astrolib/seo";
 ---
@@ -16,8 +14,8 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Home"
-  description="Your site description goes here"
+  title="Autotruck Diesel SpA"
+  description="Taller de Reparación de Vehiculos y Maquinaria Pesada"
   canonical="https://www.michaelandreuzza.com"
   openGraph={{
     url: "https://www.michaelandreuzza.com",
@@ -54,9 +52,6 @@ Use AstroSeo in all the pages you want different Seo than the index page
   <Hero />
 
   <SectionOne />
-  <SectionTwo />
   <Testimonial />
-  <Pricing />
-  <Cta />
   <Footer />
 </BaseLayout>
