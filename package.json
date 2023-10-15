@@ -21,6 +21,7 @@
     "@astrojs/partytown": "^1.0.0",
     "@astrojs/sitemap": "^1.0.0",
     "@astrolib/seo": "^0.2.1",
+    "@material-tailwind/react": "^2.1.2",
     "astro-compress": "^1.0.8",
     "install": "^0.13.0",
     "ncu": "^0.2.1",
